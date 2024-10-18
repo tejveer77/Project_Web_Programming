@@ -1,0 +1,133 @@
+nav ul li {
+    display: inline;       
+    padding: 50px 50px;
+    color: darkgoldenrod;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgba(11, 129, 189, 0.8);
+        color: white;
+    }
+}
+h1{
+    text-align: center;
+    color:crimson;
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px grey;
+    transition: all 0.5s ease-in-out;
+
+    &:hover{
+    color: rgba(11, 129, 189, 0);
+    text-shadow: 4px 4px 10px blue;
+}
+}
+p{
+    text-align: center;
+    color:darkgreen;
+    font-size: 1.5em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+img{
+    width: 30%;
+    margin-bottom: 50px;
+    transition: all 0.5s ease-out ;
+
+    }
+   
+    
+h3{
+    text-align: center;
+    color: rgb(125, 9, 24);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.5s ease-in-out;
+}
+h5{
+    text-align: center;
+    color: darkmagenta;
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+section ul li{
+    text-align: left;
+    color:midnightblue;
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px;
+
+}
+a{
+    color: darkred;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    &:hover{
+        color: crimson;
+        text-decoration: underline;
+
+    }
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    transition: all 0.5s ease-in-out;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: darkslategrey;
+    font-weight: bold;
+
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #ac0707;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #012a5d;
+}
+body {
+
+    
+background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    
+}
